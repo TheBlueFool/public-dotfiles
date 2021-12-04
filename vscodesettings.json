@@ -1,0 +1,34 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.fontFamily": "Jetbrains Mono",
+  "editor.fontLigatures": true,
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "files.autoSaveDelay": 1000,
+  "files.associations": {
+    "*.shell_completions": "shellscript",
+    "*.finalize": "shellscript",
+    "*.alias": "shellscript"
+  },
+  "git.confirmSync": false,
+  "workbench.startupEditor": "none",
+  "window.zoomLevel": 2,
+  "update.showReleaseNotes": false,
+  "explorer.confirmDelete": false,
+  "terminal.external.osxExec": "/bin/zsh",
+  "editor.largeFileOptimizations": false,
+  "cloudcode.default-app-directory": {
+    "location": "/Users/rpavis/_workbench"
+  },
+  "cloudcode.gke": {
+    "projectIds": [
+      "pavispytorch"
+    ]
+  },
+  "vs-kubernetes": {
+    "vs-kubernetes.draft-path": "/Users/rpavis/.vs-kubernetes/tools/draft/darwin-amd64/draft",
+    "vs-kubernetes.helm-path": "/Users/rpavis/.vs-kubernetes/tools/helm/darwin-amd64/helm"
+  },
+  "editor.codeLens": false,
+  "explorer.confirmDragAndDrop": false,
+}
