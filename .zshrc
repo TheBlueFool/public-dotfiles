@@ -52,9 +52,7 @@ if type brew &>/dev/null; then
   compinit
 fi
 
-eval "$(hub alias -s)"
-
-eval "$(pipenv --completion)"
+eval "$(_PIPENV_COMPLETE=zsh_source pipenv)"
 
 eval "$(pyenv init -)"
 
