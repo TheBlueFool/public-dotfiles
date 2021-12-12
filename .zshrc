@@ -52,6 +52,12 @@ if type brew &>/dev/null; then
   compinit
 fi
 
+eval "$(hub alias -s)"
+
+eval "$(pipenv --completion)"
+
+eval "$(pyenv init -)"
+
 autoload -Uz compinit && compinit
 
 ############################################################################
